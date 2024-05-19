@@ -8,10 +8,10 @@
 ## 2. Compilamos el servidor y el servidor RPC
      $ make ó $ make -f Makefile
      $ make -f Makefile.message_rpc
-    *** Atencion! Ignorar el fichero rpc_management_client.c y rpc_management_client. Por motivos de tiempo no hemos
-    podido eliminarlos del Makefile pero no son necesarios en nada ***
-    *** En caso de hacer $ make -f clean Makefile.message_rpc, se dispone de backups_rpc, directorio que contiene la recuperacion
-        rpc_management_server.c, Makefile.rpc_management y rpc_management.x ***
+### *** Atencion! Ignorar el fichero rpc_management_client.c y rpc_management_client. Por motivos de tiempo no hemos
+### podido eliminarlos del Makefile pero no son necesarios en nada ***
+### *** En caso de hacer $ make -f clean Makefile.message_rpc, se dispone de backups_rpc, directorio que contiene la recuperacion
+### rpc_management_server.c, Makefile.rpc_management y rpc_management.x ***
 
 ## 3. Abrir, como minimo cuatro terminales para las ejecuciones:
      Primera ventana:
